@@ -12,6 +12,14 @@ export default function Home() {
       </h1>
       <h2> This is vithushan </h2>
       <h3> This is the best outfit </h3>
+
+      <button className="dark:md:hover:bg-fuchsia-600 ...">
+        Save changes
+      </button>
+
+      <button className="bg-violet-600 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 ...">
+        Save changes
+      </button>
     </div>
   )
 }

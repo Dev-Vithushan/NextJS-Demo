@@ -2,18 +2,14 @@ import styles from './Login.module.css'
 
 export default function login() {
     return (
-      <div  className={styles.container} >
-        <h1> Login Page </h1>
-        <label> Name </label>
-
-        <input type="name"/> <br/>
-        <label> Email </label>
-        <input type="email"/> <br/>
-
-        <label> Password </label>
-        <input type="password"/> <br/>
-
-        <button> Submit </button>
+      <div>
+          <nav className="flex justify-center space-x-8">
+            <a href="/dashboard" className="font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Home</a>
+            <a href="/team" className="font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Team</a>
+            <a href="/projects" className="font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Projects</a>
+            <a href="/reports" className="font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Reports</a>
+          </nav>
       </div>
+      
     )
   }
