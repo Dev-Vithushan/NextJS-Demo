@@ -15,7 +15,7 @@ export default function Home() {
 
     <main className="max-w-lg p-8 mx-auto my-10 bg-white rounded-lg shadow-2xl md:p-12">
         <section>
-            <h3 className="text-2xl font-bold">Welcome to Startup</h3>
+            <h3 className="text-2xl font-bold">Welcome to SMS</h3>
             <p className="pt-2 text-gray-600">Sign in to your account.</p>
         </section>
 
