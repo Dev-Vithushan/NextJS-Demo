@@ -1,10 +1,11 @@
 import { useState } from "react"
 
 function CommentPage(){
-    
+
     const [comments, setComments] = useState([])
 
-    const fetchComments =async () => {
+
+    const fetchComments = async () => {
         const response = await fetch('../api/comments')
         const data = await response.json()
         setComments(data)
